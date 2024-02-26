@@ -1,0 +1,94 @@
+{
+    "api": {
+        "services": [
+            "HandlerService",
+            "LoggerService",
+            "StatsService"
+        ],
+        "tag": "api"
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 62789,
+            "protocol": "dokodemo-door",
+            "settings": {
+                "address": "127.0.0.1"
+            },
+            "tag": "api"
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "host1.aqiq.xyz",
+                        "port": 443,
+                        "users": [
+                            {
+                                "encryption": "none",
+                                "id": "e7f89fb0-fbc2-4110-86b7-270655540036"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "security": "tls",
+                "tlsSettings": {
+                    "disableSystemRoot": false,
+                    "serverName": "host1.aqiq.xyz"
+                },
+                "wsSettings": {
+                    "headers": {
+                        "Host": "host1.aqiq.xyz"
+                    },
+                    "path": "/nbkmws"
+                },
+                "xtlsSettings": {
+                    "disableSystemRoot": false
+                }
+            }
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {},
+            "tag": "blocked"
+        }
+    ],
+    "policy": {
+        "system": {
+            "statsInboundDownlink": true,
+            "statsInboundUplink": true
+        }
+    },
+    "routing": {
+        "rules": [
+            {
+                "inboundTag": [
+                    "api"
+                ],
+                "outboundTag": "api",
+                "type": "field"
+            },
+            {
+                "ip": [
+                    "geoip:private"
+                ],
+                "outboundTag": "blocked",
+                "type": "field"
+            },
+            {
+                "outboundTag": "blocked",
+                "protocol": [
+                    "bittorrent"
+                ],
+                "type": "field"
+            }
+        ]
+    },
+    "stats": {}
+}

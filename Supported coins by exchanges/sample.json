@@ -1,0 +1,1074 @@
+{
+    "Data": {
+        "ID": 2,
+        "TYPE": "162",
+        "ID_PARENT_ASSET": null,
+        "SYMBOL": "ETH",
+        "URI": "eth",
+        "ASSET_TYPE": "BLOCKCHAIN",
+        "PARENT_ASSET_SYMBOL": null,
+        "CREATED_ON": 1659713079,
+        "UPDATED_ON": 1704236598,
+        "PUBLIC_NOTICE": null,
+        "NAME": "Ethereum",
+        "LOGO_URL": "https://resources.cryptocompare.com/asset-management/2/1659946678476.png",
+        "LAUNCH_DATE": 1438214400,
+        "ASSET_ALTERNATIVE_IDS": [
+            {
+                "NAME": "CG",
+                "ID": "ethereum"
+            },
+            {
+                "NAME": "CMC",
+                "ID": 1027
+            }
+        ],
+        "ASSET_DESCRIPTION_SNIPPET": "Ethereum: a decentralized platform for smart contracts, apps and transactions using Ether. ETH is used for payments, store of value and collateral. Valuable for decentralized finance, NFTs and applications.",
+        "ASSET_DECIMAL_POINTS": 18,
+        "SUPPORTED_PLATFORMS": [
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "BINANCE_BRIDGE",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://bscscan.com/token/0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+                "SMART_CONTRACT_ADDRESS": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+                "LAUNCH_DATE": 1599609600,
+                "TRADING_AS": "ETH",
+                "DECIMALS": 18
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP2",
+                "BRIDGE_OPERATOR": "BINANCE_BRIDGE",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://explorer.bnbchain.org/asset/ETH-1C9",
+                "SMART_CONTRACT_ADDRESS": "ETH-1C9",
+                "LAUNCH_DATE": 1573776000,
+                "TRADING_AS": "ETH",
+                "DECIMALS": 8
+            },
+            {
+                "BLOCKCHAIN": "VLX",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "VELASPAD_BRIDGE",
+                "EXPLORER_URL": "https://evmexplorer.velas.com/token/0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8",
+                "SMART_CONTRACT_ADDRESS": "0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8",
+                "LAUNCH_DATE": 1644278400,
+                "TRADING_AS": "ETH",
+                "DECIMALS": 18
+            },
+            {
+                "BLOCKCHAIN": "HT",
+                "TOKEN_STANDARD": "HRC20",
+                "BRIDGE_OPERATOR": "H_TOKENS",
+                "EXPLORER_URL": "https://scan.hecochain.com/en-us/token/0x64ff637fb478863b7468bc97d30a5bf3a428a1fd?tab=Transfers",
+                "SMART_CONTRACT_ADDRESS": "0x64ff637fb478863b7468bc97d30a5bf3a428a1fd",
+                "LAUNCH_DATE": 1608076800,
+                "TRADING_AS": "ETH",
+                "DECIMALS": 18
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "NATIVE_ASSET",
+                "EXPLORER_URL": "https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "SMART_CONTRACT_ADDRESS": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "LAUNCH_DATE": 1513555200,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "MATIC",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "POLYGON_BRIDGE",
+                "EXPLORER_URL": "https://polygonscan.com/token/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                "SMART_CONTRACT_ADDRESS": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                "LAUNCH_DATE": 1598572800,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "PORTAL_TOKEN_BRIDGE",
+                "EXPLORER_URL": "https://bscscan.com/token/0x4DB5a66E937A9F4473fA95b1cAF1d1E1D62E29EA",
+                "SMART_CONTRACT_ADDRESS": "0x4DB5a66E937A9F4473fA95b1cAF1d1E1D62E29EA",
+                "LAUNCH_DATE": 1633996800,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "AVAX",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "AVALANCHE_BRIDGE",
+                "EXPLORER_URL": "https://snowtrace.io/token/0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+                "SMART_CONTRACT_ADDRESS": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+                "LAUNCH_DATE": 1626998400,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "CRO",
+                "TOKEN_STANDARD": "CRC20",
+                "BRIDGE_OPERATOR": "CRONOS_BRIDGE",
+                "EXPLORER_URL": "https://cronos.org/explorer/token/0xe44Fd7fCb2b1581822D0c862B68222998a0c299a/",
+                "SMART_CONTRACT_ADDRESS": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+                "LAUNCH_DATE": 1636329600,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "KLAY",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "SYNAPSE_BRIDGE",
+                "EXPLORER_URL": "https://scope.klaytn.com/token/0xcd6f29dc9ca217d0973d3d21bf58edd3ca871a86",
+                "SMART_CONTRACT_ADDRESS": "0xcd6f29dc9ca217d0973d3d21bf58edd3ca871a86",
+                "LAUNCH_DATE": 1655510400,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "FTM",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "EXPLORER_URL": "https://ftmscan.com/token/0x74b23882a30290451A17c44f4F05243b6b58C76d",
+                "SMART_CONTRACT_ADDRESS": "0x74b23882a30290451A17c44f4F05243b6b58C76d",
+                "LAUNCH_DATE": 1613865600,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "TRX",
+                "TOKEN_STANDARD": "TRC20",
+                "BRIDGE_OPERATOR": "WBTC_DAO",
+                "EXPLORER_URL": "https://tronscan.org/#/token20/TXWkP3jLBqRGojUih1ShzNyDaN5Csnebok",
+                "SMART_CONTRACT_ADDRESS": "TXWkP3jLBqRGojUih1ShzNyDaN5Csnebok",
+                "LAUNCH_DATE": 1608163200,
+                "TRADING_AS": "WETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "NATIVE_ASSET",
+                "EXPLORER_URL": "https://etherscan.io/token/0x2956356cd2a2bf3202f771f50d3d14a367b48070",
+                "SMART_CONTRACT_ADDRESS": "0x2956356cd2a2bf3202f771f50d3d14a367b48070",
+                "LAUNCH_DATE": 1501632000,
+                "RETIRE_DATE": 1513036800,
+                "TRADING_AS": "WETHV1",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "NATIVE_ASSET",
+                "EXPLORER_URL": "https://etherscan.io/token/0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+                "SMART_CONTRACT_ADDRESS": "0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb",
+                "LAUNCH_DATE": 1568332800,
+                "TRADING_AS": "SETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "NATIVE_ASSET",
+                "EXPLORER_URL": "https://etherscan.io/token/0xfe2e637202056d30016725477c5da089ab0a043a",
+                "SMART_CONTRACT_ADDRESS": "0xfe2e637202056d30016725477c5da089ab0a043a",
+                "LAUNCH_DATE": 1611619200,
+                "TRADING_AS": "SETH2",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "BINANCE_BRIDGE",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://bscscan.com/token/0x250632378e573c6be1ac2f97fcdf00515d0aa91b",
+                "SMART_CONTRACT_ADDRESS": "0x250632378e573c6be1ac2f97fcdf00515d0aa91b",
+                "LAUNCH_DATE": 1608595200,
+                "TRADING_AS": "BETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "NATIVE_ASSET",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://etherscan.io/token/0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+                "SMART_CONTRACT_ADDRESS": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+                "LAUNCH_DATE": 1644192000,
+                "TRADING_AS": "CBETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "MATIC",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "POLYGON_BRIDGE",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://polygonscan.com/token/0x4b4327dB1600B8B1440163F667e199CEf35385f5",
+                "SMART_CONTRACT_ADDRESS": "0x4b4327dB1600B8B1440163F667e199CEf35385f5",
+                "LAUNCH_DATE": 1676505600,
+                "TRADING_AS": "CBETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ARB",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "ARBITRUM_BRIDGE",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://arbiscan.io/token/0x1debd73e752beaf79865fd6446b0c970eae7732f",
+                "SMART_CONTRACT_ADDRESS": "0x1debd73e752beaf79865fd6446b0c970eae7732f",
+                "LAUNCH_DATE": 1676073600,
+                "TRADING_AS": "CBETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://etherscan.io/token/0x2ac03bf434db503f6f5f85c3954773731fc3f056",
+                "SMART_CONTRACT_ADDRESS": "0x2ac03bf434db503f6f5f85c3954773731fc3f056",
+                "LAUNCH_DATE": 1654560000,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "FTM",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://ftmscan.com/token/0xbdc8fd437c489ca3c6da3b5a336d11532a532303",
+                "SMART_CONTRACT_ADDRESS": "0xbdc8fd437c489ca3c6da3b5a336d11532a532303",
+                "LAUNCH_DATE": 1626998400,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://bscscan.com/token/0xdebb1d6a2196f2335ad51fbde7ca587205889360",
+                "SMART_CONTRACT_ADDRESS": "0xdebb1d6a2196f2335ad51fbde7ca587205889360",
+                "LAUNCH_DATE": 1626998400,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://bscscan.com/token/0x6f817a0ce8f7640add3bc0c1c2298635043c2423",
+                "SMART_CONTRACT_ADDRESS": "0x6f817a0ce8f7640add3bc0c1c2298635043c2423",
+                "LAUNCH_DATE": 1604275200,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "AVAX",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://snowtrace.io/token/0x7d09a42045359aa85488bc07d0ada83e22d50017",
+                "SMART_CONTRACT_ADDRESS": "0x7d09a42045359aa85488bc07d0ada83e22d50017",
+                "LAUNCH_DATE": 1630972800,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "FTM",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "EXPLORER_URL": "https://ftmscan.com/token/0xb688e18f34e6e424c44b247318f22367ed7df3e2",
+                "SMART_CONTRACT_ADDRESS": "0xb688e18f34e6e424c44b247318f22367ed7df3e2",
+                "LAUNCH_DATE": 1604880000,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://etherscan.io/token/0x0615dbba33fe61a31c7ed131bda6655ed76748b1",
+                "SMART_CONTRACT_ADDRESS": "0x0615dbba33fe61a31c7ed131bda6655ed76748b1",
+                "LAUNCH_DATE": 1644969600,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "HT",
+                "TOKEN_STANDARD": "HRC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://www.hecoinfo.com/token/0x62c10412d69823a98db5c09cf6e82810e0df5ad7",
+                "SMART_CONTRACT_ADDRESS": "0x62c10412d69823a98db5c09cf6e82810e0df5ad7",
+                "LAUNCH_DATE": 1608508800,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://bscscan.com/token/0x0230219b25395f14b84cf4dcd987e2daf5a71e4b",
+                "SMART_CONTRACT_ADDRESS": "0x0230219b25395f14b84cf4dcd987e2daf5a71e4b",
+                "LAUNCH_DATE": 1650240000,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "MATIC",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://polygonscan.com/token/0xbd83010eb60f12112908774998f65761cf9f6f9a",
+                "SMART_CONTRACT_ADDRESS": "0xbd83010eb60f12112908774998f65761cf9f6f9a",
+                "LAUNCH_DATE": 1626998400,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "HT",
+                "TOKEN_STANDARD": "HRC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://www.hecoinfo.com/token/0x6b7a87899490ece95443e979ca9485cbe7e71522",
+                "SMART_CONTRACT_ADDRESS": "0x6b7a87899490ece95443e979ca9485cbe7e71522",
+                "LAUNCH_DATE": 1640563200,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "OKT",
+                "TOKEN_STANDARD": "KIP20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "EXPLORER_URL": "https://www.oklink.com/okc/token/0x6f058086d91a181007c2325e5b285425ca84d615",
+                "SMART_CONTRACT_ADDRESS": "0x6f058086d91a181007c2325e5b285425ca84d615",
+                "LAUNCH_DATE": 1640476800,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "ETH",
+                "TOKEN_STANDARD": "ERC20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://etherscan.io/token/0x8eb168eda6cc20285726a16bcbc6137f86026864",
+                "SMART_CONTRACT_ADDRESS": "0x8eb168eda6cc20285726a16bcbc6137f86026864",
+                "LAUNCH_DATE": 1666828800,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            },
+            {
+                "BLOCKCHAIN": "BNB",
+                "TOKEN_STANDARD": "BEP20",
+                "BRIDGE_OPERATOR": "MULTICHAIN",
+                "IS_ASSET_ISSUER": true,
+                "EXPLORER_URL": "https://bscscan.com/address/0xc22d2b2be62a741d5c616a713b88ca597b709390",
+                "SMART_CONTRACT_ADDRESS": "0xc22d2b2be62a741d5c616a713b88ca597b709390",
+                "LAUNCH_DATE": 1675728000,
+                "TRADING_AS": "ANYETH",
+                "DECIMALS": 18,
+                "IS_INHERITED": true
+            }
+        ],
+        "ASSET_CUSTODIANS": [
+            {
+                "NAME": "COINBASE"
+            },
+            {
+                "NAME": "FIREBLOCKS"
+            },
+            {
+                "NAME": "CIRCLE"
+            },
+            {
+                "NAME": "GEMINI"
+            },
+            {
+                "NAME": "NYDIG"
+            },
+            {
+                "NAME": "PAXOS"
+            },
+            {
+                "NAME": "BITCOIN_SUISSE"
+            },
+            {
+                "NAME": "ANCHORAGE"
+            },
+            {
+                "NAME": "BITGO"
+            },
+            {
+                "NAME": "BANKEX"
+            },
+            {
+                "NAME": "HEX_TRUST"
+            },
+            {
+                "NAME": "FINOA"
+            },
+            {
+                "NAME": "PYCTOR"
+            },
+            {
+                "NAME": "BITPANDA_CUSTODY"
+            },
+            {
+                "NAME": "ATATO"
+            },
+            {
+                "NAME": "ETANA_CUSTODY"
+            },
+            {
+                "NAME": "CACTUS_CUSTODY"
+            },
+            {
+                "NAME": "FIDELITY"
+            },
+            {
+                "NAME": "ZERO_HASH"
+            },
+            {
+                "NAME": "SOLARIS"
+            },
+            {
+                "NAME": "CYBAVO"
+            },
+            {
+                "NAME": "LEDGER_ENTERPRISE"
+            },
+            {
+                "NAME": "OSL"
+            },
+            {
+                "NAME": "MATRIXPORT"
+            },
+            {
+                "NAME": "COBO"
+            },
+            {
+                "NAME": "CUSTODIGIT"
+            },
+            {
+                "NAME": "AMBISAFE"
+            },
+            {
+                "NAME": "COPPER"
+            }
+        ],
+        "SUPPLY_MAX": -1,
+        "SUPPLY_ISSUED": 124108835.635457,
+        "SUPPLY_TOTAL": 120181735.760094,
+        "SUPPLY_CIRCULATING": 120181735.760094,
+        "SUPPLY_FUTURE": -1,
+        "SUPPLY_LOCKED": 0,
+        "SUPPLY_BURNT": 3927099.87536258,
+        "SUPPLY_STAKED": 28695474,
+        "LAST_BLOCK_MINT": 2.044338104121828,
+        "LAST_BLOCK_BURN": null,
+        "BURN_ADDRESSES": [
+            {
+                "NAME": "0x0..00 - the \"genesis\" burn address",
+                "BLOCKCHAIN": "ETH",
+                "ADDRESS": "0x0000000000000000000000000000000000000000",
+                "DESCRIPTION": "This is the \"genesis\" burn address, and it is the address where the ether used to create the Ethereum blockchain was sent. Any ether sent to this address is permanently removed from circulation and cannot be accessed by anyone."
+            },
+            {
+                "NAME": "0x0..0dead - Ethereum Foundation suggested burn address",
+                "BLOCKCHAIN": "ETH",
+                "ADDRESS": "0x000000000000000000000000000000000000dead",
+                "DESCRIPTION": "This is a burn address that was created by the Ethereum Foundation. Any ether sent to this address is permanently removed from circulation."
+            },
+            {
+                "NAME": "0x0..01 - used to burn tokens in some token swap protocols ",
+                "BLOCKCHAIN": "ETH",
+                "ADDRESS": "0x0000000000000000000000000000000000000001",
+                "DESCRIPTION": "This is another burn address that was created by the Ethereum Foundation. It is used to burn tokens in some token swap protocols."
+            },
+            {
+                "NAME": "0x0..02 -used to burn tokens in some token swap protocols",
+                "BLOCKCHAIN": "ETH",
+                "ADDRESS": "0x0000000000000000000000000000000000000002",
+                "DESCRIPTION": "This is another burn address that was created by the Ethereum Foundation. It is used to burn tokens in some token swap protocols."
+            }
+        ],
+        "LOCKED_ADDRESSES": [
+            {
+                "NAME": "Ethereum staking contract address",
+                "BLOCKCHAIN": "ETH",
+                "ADDRESS": "0x00000000219ab540356cBB839Cbe05303d7705Fa",
+                "DESCRIPTION": "This contract address was created by the Ethereum Foundation and is used to manage the staking process for the Ethereum 2.0 network. When a user wants to stake their ETH, they send it to this contract address, and the contract then distributes the funds to various validators who help secure the network.\n\nIt's important to note that staking on the Ethereum network is only available to users who hold at least 32 ETH in a compatible wallet and run a validator node or participate in a staking pool. Additionally, staked ETH is locked up for a period of time and cannot be easily accessed or traded until it is released from the staking contract."
+            }
+        ],
+        "HAS_SMART_CONTRACT_CAPABILITIES": 1,
+        "TARGET_BLOCK_MINT": 2,
+        "TARGET_BLOCK_TIME": 12,
+        "LAST_BLOCK_NUMBER": 19004446,
+        "LAST_BLOCK_TIMESTAMP": 1705227095,
+        "LAST_BLOCK_TIME": 12,
+        "LAST_BLOCK_SIZE": 81990,
+        "LAST_BLOCK_ISSUER": "Titan (titanbuilder.xyz)",
+        "LAST_BLOCK_TRANSACTION_FEE_TOTAL": 0.21103518261366283,
+        "LAST_BLOCK_TRANSACTION_COUNT": 393,
+        "LAST_BLOCK_HASHES_PER_SECOND": 0,
+        "LAST_BLOCK_DIFFICULTY": 0,
+        "SUPPORTED_STANDARDS": [
+            {
+                "NAME": "ERC721"
+            },
+            {
+                "NAME": "ERC20"
+            },
+            {
+                "NAME": "ERC777"
+            },
+            {
+                "NAME": "ERC1155"
+            },
+            {
+                "NAME": "ERC4626"
+            }
+        ],
+        "LAYER_TWO_SOLUTIONS": [
+            {
+                "NAME": "Arbitrum",
+                "WEBSITE_URL": "https://offchainlabs.com/",
+                "DESCRIPTION": "Arbitrum is a layer two scaling solution that utilises Optimistic Rollup technology. It aims to reduce fees and increase the capacity of Ethereum by handling transactions off-chain before batching and submitting them to the Ethereum mainnet.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Optimism",
+                "WEBSITE_URL": "https://optimism.io/",
+                "DESCRIPTION": "Optimism is another Optimistic Rollup-based solution, focusing on scalability and speed. It allows for the execution of smart contracts at a lower cost and higher throughput than possible on the Ethereum mainnet alone.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "zkSync",
+                "WEBSITE_URL": "https://zksync.io/",
+                "DESCRIPTION": "zkSync leverages Zero-Knowledge Rollup technology for scalable, low-cost transactions. It enhances both privacy and efficiency by using zero-knowledge proofs to validate transactions off-chain.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Loopring",
+                "WEBSITE_URL": "https://loopring.org/",
+                "DESCRIPTION": "Loopring employs zkRollups to offer high-speed and low-fee transactions. It's particularly geared towards decentralized exchanges, enabling secure, scalable trading on Ethereum.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Polygon",
+                "WEBSITE_URL": "https://polygon.technology/",
+                "DESCRIPTION": "Polygon, formerly known as Matic Network, provides a framework for building interconnected blockchain networks. It combines the advantages of sidechains and rollups to enhance Ethereum's scalability and interoperability.",
+                "CATEGORY": "SIDECHAIN"
+            },
+            {
+                "NAME": "StarkWare",
+                "WEBSITE_URL": "https://starkware.co/",
+                "DESCRIPTION": "StarkWare utilises zkSTARKs for its rollup technology, focusing on transparent, scalable, and privacy-oriented solutions. It's known for its quantum-resistant security features.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Hermez Network",
+                "WEBSITE_URL": "https://hermez.io/",
+                "DESCRIPTION": "Hermez is a ZK-Rollup focused on scaling payments and token transfers on the Ethereum network. It consolidates multiple transactions into a single one, reducing the overall network load.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Aztec Network",
+                "WEBSITE_URL": "https://aztec.network/",
+                "DESCRIPTION": "Aztec Network uses ZK-Rollups to provide private transactions over Ethereum. It's designed to enable confidential tokens and smart contracts, enhancing privacy without compromising on security.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Raiden Network",
+                "WEBSITE_URL": "https://raiden.network/",
+                "DESCRIPTION": "The Raiden Network is Ethereum's version of the Lightning Network. It enables off-chain transactions through state channels, significantly speeding up transfer times and reducing costs.",
+                "CATEGORY": "STATE_CHANNEL"
+            },
+            {
+                "NAME": "Connext",
+                "WEBSITE_URL": "https://connext.network/",
+                "DESCRIPTION": "Connext is a network of state channels that facilitates fast, low-cost, and trust-minimized payments and transfers within the Ethereum ecosystem.",
+                "CATEGORY": "STATE_CHANNEL"
+            },
+            {
+                "NAME": "ZKSpace",
+                "WEBSITE_URL": "https://zks.org/",
+                "DESCRIPTION": "The ZKSpace platform consists of three main parts: a Layer 2 AMM DEX utilising ZK-Rollups technology ZKSwap v3, a payment service called ZKSquare, and an NFT marketplace called ZKSea.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "Boba Network",
+                "WEBSITE_URL": "https://boba.network/",
+                "DESCRIPTION": "Boba Network utilizes Optimistic Rollup technology to scale Ethereum, focusing on enhancing smart contract capabilities. It offers faster exits to the Ethereum mainnet and supports hybrid computations, enabling smart contracts to access off-chain data and computation, ideal for complex dApps.",
+                "CATEGORY": "ROLLUP"
+            },
+            {
+                "NAME": "dYdX",
+                "WEBSITE_URL": "https://dydx.exchange/",
+                "DESCRIPTION": "dYdX is a decentralized trading platform that operates on a layer two solution powered by StarkEx, a scalability engine based on ZK-Rollup technology developed by StarkWare. dYdX leverages this technology to offer high-speed, low-cost trading with the security of the Ethereum blockchain. It's particularly known for enabling decentralized perpetual contracts, margin trading, and spot trading, making it a significant player in the decentralized finance (DeFi) space.",
+                "CATEGORY": "ROLLUP"
+            }
+        ],
+        "PRIVACY_SOLUTIONS": null,
+        "CODE_REPOSITORIES": [
+            {
+                "URL": "https://github.com/ethereum/solidity",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "OPEN_ISSUES": 425,
+                "CLOSED_ISSUES": 13924,
+                "OPEN_PULL_REQUESTS": 54,
+                "CLOSED_PULL_REQUESTS": 8508,
+                "CONTRIBUTORS": 677,
+                "FORKS": 5648,
+                "STARS": 21538,
+                "SUBSCRIBERS": 711,
+                "LAST_UPDATED_TS": 1705226826,
+                "CREATED_AT": 1439814446,
+                "UPDATED_AT": 1705222780,
+                "LAST_PUSH_TS": 1705121730,
+                "CODE_SIZE_IN_BYTES": 72432,
+                "IS_FORK": false,
+                "LANGUAGE": "C++",
+                "FORKED_ASSET_DATA": null
+            },
+            {
+                "URL": "https://github.com/ethereum/go-ethereum",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "OPEN_ISSUES": 338,
+                "CLOSED_ISSUES": 16975,
+                "OPEN_PULL_REQUESTS": 81,
+                "CLOSED_PULL_REQUESTS": 9536,
+                "CONTRIBUTORS": 922,
+                "FORKS": 19688,
+                "STARS": 44497,
+                "SUBSCRIBERS": 2197,
+                "LAST_UPDATED_TS": 1705226826,
+                "CREATED_AT": 1388063146,
+                "UPDATED_AT": 1705223478,
+                "LAST_PUSH_TS": 1705223621,
+                "CODE_SIZE_IN_BYTES": 212941,
+                "IS_FORK": false,
+                "LANGUAGE": "Go",
+                "FORKED_ASSET_DATA": null
+            },
+            {
+                "URL": "https://github.com/ethereum/remix-project",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "OPEN_ISSUES": 754,
+                "CLOSED_ISSUES": 3631,
+                "OPEN_PULL_REQUESTS": 39,
+                "CLOSED_PULL_REQUESTS": 2418,
+                "CONTRIBUTORS": 198,
+                "FORKS": 906,
+                "STARS": 2170,
+                "SUBSCRIBERS": 60,
+                "LAST_UPDATED_TS": 1705226827,
+                "CREATED_AT": 1584690588,
+                "UPDATED_AT": 1705212864,
+                "LAST_PUSH_TS": 1705052671,
+                "CODE_SIZE_IN_BYTES": 170236,
+                "IS_FORK": false,
+                "LANGUAGE": "TypeScript",
+                "FORKED_ASSET_DATA": null
+            },
+            {
+                "URL": "https://github.com/ethereum/ethereum-org-website",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "OPEN_ISSUES": 484,
+                "CLOSED_ISSUES": 10777,
+                "OPEN_PULL_REQUESTS": 172,
+                "CLOSED_PULL_REQUESTS": 8299,
+                "CONTRIBUTORS": 1529,
+                "FORKS": 4672,
+                "STARS": 4515,
+                "SUBSCRIBERS": 195,
+                "LAST_UPDATED_TS": 1705226828,
+                "CREATED_AT": 1515218077,
+                "UPDATED_AT": 1705211294,
+                "LAST_PUSH_TS": 1705199870,
+                "CODE_SIZE_IN_BYTES": 581625,
+                "IS_FORK": false,
+                "LANGUAGE": "Markdown",
+                "FORKED_ASSET_DATA": null
+            },
+            {
+                "URL": "https://github.com/ethereum/EIPs",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "OPEN_ISSUES": 97,
+                "CLOSED_ISSUES": 6949,
+                "OPEN_PULL_REQUESTS": 92,
+                "CLOSED_PULL_REQUESTS": 5958,
+                "CONTRIBUTORS": 719,
+                "FORKS": 5316,
+                "STARS": 12246,
+                "SUBSCRIBERS": 949,
+                "LAST_UPDATED_TS": 1705226829,
+                "CREATED_AT": 1445867843,
+                "UPDATED_AT": 1705201450,
+                "LAST_PUSH_TS": 1705191489,
+                "CODE_SIZE_IN_BYTES": 64922,
+                "IS_FORK": false,
+                "LANGUAGE": "Python",
+                "FORKED_ASSET_DATA": null
+            }
+        ],
+        "SUBREDDITS": [
+            {
+                "URL": "https://www.reddit.com/r/ethereum",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "NAME": "ethereum",
+                "CURRENT_ACTIVE_USERS": 798,
+                "AVERAGE_POSTS_PER_DAY": 6.64,
+                "AVERAGE_POSTS_PER_HOUR": 0.28,
+                "AVERAGE_COMMENTS_PER_DAY": 250.54,
+                "AVERAGE_COMMENTS_PER_HOUR": 10.44,
+                "SUBSCRIBERS": 2672111,
+                "COMMUNITY_CREATED_AT": 1387037735,
+                "LAST_UPDATED_TS": 1704985947
+            }
+        ],
+        "TWITTER_ACCOUNTS": [
+            {
+                "URL": "https://twitter.com/ethereum",
+                "MAKE_3RD_PARTY_REQUEST": true,
+                "NAME": "Ethereum Foundation",
+                "USERNAME": "ethereum",
+                "VERIFIED": true,
+                "VERIFIED_TYPE": "blue",
+                "FOLLOWING": 0,
+                "FOLLOWERS": 3220842,
+                "FAVOURITES": 0,
+                "LISTS": 13057,
+                "STATUSES": 3590,
+                "ACCOUNT_CREATED_AT": 1390763724,
+                "LAST_UPDATED_TS": 1705226705
+            }
+        ],
+        "DISCORD_SERVERS": [
+            {
+                "URL": "https://discord.com/invite/CetY6Y4",
+                "MAKE_3RD_PARTY_REQUEST": false,
+                "NAME": "Ethereum.org",
+                "TOTAL_MEMBERS": 40823,
+                "CURRENT_ACTIVE_USERS": 3644,
+                "PREMIUM_SUBSCRIBERS": 14,
+                "LAST_UPDATED_TS": 1699293964
+            }
+        ],
+        "TELEGRAM_GROUPS": null,
+        "OTHER_SOCIAL_NETWORKS": [
+            {
+                "NAME": "BITCOINTALK",
+                "URL": "https://bitcointalk.org/index.php?topic=428589.0"
+            }
+        ],
+        "HELD_TOKEN_SALE": 1,
+        "TOKEN_SALES": [
+            {
+                "TOKEN_SALE_TYPE": "ICO",
+                "TOKEN_SALE_DATE_START": 1405987200,
+                "TOKEN_SALE_DATE_END": 1409616000,
+                "TOKEN_SALE_DESCRIPTION": "Ethereum was also originally funded through an ICO, which took place in 2014. Buyers received ether (ETH) in exchange for bitcoin, and more than 7 million ether was sold in the first 12 hours of the sale, worth approximately $2.2 million.",
+                "TOKEN_SALE_TEAM_MEMBERS": [
+                    {
+                        "TYPE": "EMPLOYEE",
+                        "FULL_NAME": "Vitalik Buterin"
+                    },
+                    {
+                        "TYPE": "EMPLOYEE",
+                        "FULL_NAME": "Mihai Alisie"
+                    },
+                    {
+                        "TYPE": "EMPLOYEE",
+                        "FULL_NAME": "Anthony Di Iorio"
+                    },
+                    {
+                        "TYPE": "EMPLOYEE",
+                        "FULL_NAME": "Amir Chetrit"
+                    },
+                    {
+                        "TYPE": "EMPLOYEE",
+                        "FULL_NAME": "Charles Hoskinson"
+                    }
+                ],
+                "TOKEN_SALE_WEBSITE_URL": "https://www.ethereum.org/",
+                "TOKEN_SALE_SUPPLY": "72003680",
+                "TOKEN_SUPPLY_POST_SALE": "INCREASES",
+                "TOKEN_SALE_PAYMENT_METHOD_TYPE": "CRYPTO",
+                "TOKEN_SALE_START_PRICE": "0.0005",
+                "TOKEN_SALE_START_PRICE_CURRENCY": "BTC",
+                "TOKEN_SALE_FUNDS_RAISED": [
+                    {
+                        "CURRENCY": "BTC",
+                        "TOTAL_VALUE": "31730"
+                    }
+                ],
+                "TOKEN_SALE_FUNDS_RAISED_USD": "18500000",
+                "TOKEN_SALE_INVESTORS_SPLIT": [
+                    {
+                        "CATEGORY": "PUBLIC",
+                        "TOTAL_TOKENS": "60101471.696"
+                    }
+                ],
+                "TOKEN_SALE_RESERVE_SPLIT": [
+                    {
+                        "CATEGORY": "TEAM",
+                        "TOTAL_TOKENS": "11902208.304"
+                    }
+                ],
+                "TOKEN_SALE_JURISDICTIONS": [
+                    {
+                        "NAME": "CH"
+                    }
+                ],
+                "TOKEN_SALE_REGULATORY_FRAMEWORKS": [
+                    {
+                        "NAME": "UNREGULATED"
+                    }
+                ],
+                "TOKEN_SALE_LEGAL_ADVISERS": [
+                    {
+                        "NAME": "MME"
+                    }
+                ],
+                "TOKEN_SALE_LEGAL_FORMS": [
+                    {
+                        "NAME": "NON_PROFIT"
+                    }
+                ],
+                "TOKEN_SALE_SECURITY_AUDIT_COMPANIES": [
+                    {
+                        "NAME": "DEJAVU_SECURITY"
+                    }
+                ]
+            }
+        ],
+        "HELD_EQUITY_SALE": 0,
+        "WEBSITE_URL": "https://www.ethereum.org/",
+        "BLOG_URL": "https://blog.ethereum.org/",
+        "WHITE_PAPER_URL": "https://resources.cryptocompare.com/asset-management/2/1660950884484.pdf",
+        "OTHER_DOCUMENT_URLS": [
+            {
+                "TYPE": "YELLOW_PAPER",
+                "VERSION": 1,
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1661331402641.pdf"
+            },
+            {
+                "TYPE": "ROADMAP",
+                "VERSION": 1,
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1661331439685.pdf"
+            },
+            {
+                "TYPE": "TOKEN_ECONOMICS",
+                "VERSION": 1,
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1661331486909.pdf"
+            },
+            {
+                "TYPE": "ROADMAP",
+                "VERSION": 2,
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1661332203646.pdf"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518082157.pdf",
+                "COMMENT": "A security framework for Ethereum smart contracts"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518166885.pdf",
+                "COMMENT": "An Extensive Security Analysis on Ethereum Smart Contracts"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518190524.pdf",
+                "COMMENT": "A survey of attacks on Ethereum smart contracts"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518232453.pdf",
+                "COMMENT": "A Survey of Security Vulnerabilities in Ethereum Smart Contracts"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518261382.pdf",
+                "COMMENT": "Ethereum Smart Contracts: Security Vulnerabilities and Security Tools"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518318335.pdf",
+                "COMMENT": "Ethereum smart contract security research: survey and future research opportunities"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518351853.pdf",
+                "COMMENT": "Property-based testing of ERC-721 Ethereum smart contracts"
+            },
+            {
+                "TYPE": "AUDIT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518380816.pdf",
+                "COMMENT": "Security Audit Report | Ethereum 2.0 Specifications | Ethereum Foundation \n6 March 2020 by Least Authority TFA GmbH\n"
+            },
+            {
+                "TYPE": "SECURITY_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682518482164.pdf",
+                "COMMENT": "The State of Ethereum Smart Contracts Security:\nVulnerabilities, Countermeasures, and Tool Support"
+            },
+            {
+                "TYPE": "TOKEN_ECONOMICS",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1682519065980.pdf",
+                "COMMENT": "ETH issuance after the merge"
+            },
+            {
+                "TYPE": "ESG_REPORT",
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1685109301004.pdf",
+                "COMMENT": "Ethereum Governance (\"If no one owns Ethereum, how are decisions about past and future changes to Ethereum made? Ethereum governance refers to the process that allows such decisions to be made\") \nPage last updated: May 25, 2023"
+            },
+            {
+                "TYPE": "ROADMAP",
+                "VERSION": 3,
+                "URL": "https://resources.cryptocompare.com/asset-management/2/1704236593386.pdf"
+            }
+        ],
+        "EXPLORER_ADDRESSES": [
+            {
+                "URL": "https://etherscan.io/"
+            },
+            {
+                "URL": "https://www.etherchain.org/"
+            },
+            {
+                "URL": "https://ethplorer.io/"
+            },
+            {
+                "URL": "https://blockchair.com/ethereum"
+            },
+            {
+                "URL": "https://blockscout.com/eth/mainnet/"
+            },
+            {
+                "URL": "https://www.oklink.com/en/eth"
+            },
+            {
+                "URL": "https://eth.tokenview.io/"
+            },
+            {
+                "URL": "https://github.com/wmitsuda/otterscan"
+            }
+        ],
+        "ASSET_INDUSTRIES": [
+            {
+                "ASSET_INDUSTRY": "PLATFORM"
+            }
+        ],
+        "CONSENSUS_MECHANISMS": [
+            {
+                "NAME": "POS"
+            }
+        ],
+        "CONSENSUS_ALGORITHM_TYPES": [
+            {
+                "NAME": "Gasper",
+                "DESCRIPTION": "Ethereum uses a consensus algorithm known as Gasper that combines Casper FFG proof-of-stake with the GHOST fork-choice rule."
+            }
+        ],
+        "HASHING_ALGORITHM_TYPES": [
+            {
+                "NAME": "KECCA_256"
+            }
+        ],
+        "PRICE_USD": 2548.79728446709,
+        "PRICE_USD_SOURCE": "cadli",
+        "PRICE_USD_LAST_UPDATE_TS": 1705227631,
+        "MKT_CAP_PENALTY": null,
+        "CIRCULATING_MKT_CAP_USD": 306318881747.86896,
+        "TOTAL_MKT_CAP_USD": 306318881747.86896,
+        "SPOT_MOVING_24_HOUR_QUOTE_VOLUME_TOP_TIER_DIRECT_USD": 667874635.857814,
+        "SPOT_MOVING_24_HOUR_QUOTE_VOLUME_DIRECT_USD": 674790247.978354,
+        "SPOT_MOVING_24_HOUR_QUOTE_VOLUME_TOP_TIER_USD": 3661003600.31848,
+        "SPOT_MOVING_24_HOUR_QUOTE_VOLUME_USD": 6428718130.5796,
+        "SPOT_MOVING_24_HOUR_CHANGE_USD": 15.66041488982,
+        "SPOT_MOVING_24_HOUR_CHANGE_PERCENTAGE_USD": 0.618222216016042,
+        "TOPLIST_BASE_RANK": {
+            "LAUNCH_DATE": 604,
+            "CIRCULATING_MKT_CAP_USD": 2,
+            "TOTAL_MKT_CAP_USD": 4,
+            "SPOT_MOVING_24_HOUR_QUOTE_VOLUME_USD": 2,
+            "SPOT_MOVING_24_HOUR_CHANGE_PERCENTAGE_USD": 1287
+        },
+        "ASSET_DESCRIPTION": "## What is Ethereum?\n\nEthereum is a decentralized, open-source blockchain platform that enables developers to build and deploy smart contracts and decentralized applications (dApps). It runs on a global network of nodes, making it highly secure and resistant to censorship. Ethereum introduced the concept of programmable money, allowing users to interact with the blockchain through self-executing contracts, also known as smart contracts. Ethereum's native currency, Ether (ETH), powers these contracts and facilitates transactions on the network.\n\n## What is ETH and why does it have value?\n\nETH, or Ether, is the native cryptocurrency of the Ethereum platform. It is used to pay for transaction fees and computational services on the network. ETH also serves as a digital store of value due to its decreasing issuance rate, collateral for crypto loans, and as a payment system in various financial apps built on Ethereum. Many people also view ETH as an investment, similar to Bitcoin and other cryptocurrencies.\n\n## What is Ethereum used for?\n\nEthereum's primary use is for executing smart contracts, which enable various applications, such as decentralized finance (DeFi), stablecoins, non-fungible tokens (NFTs), and decentralized autonomous organizations (DAOs). These applications are built on top of the Ethereum platform, providing a wide range of financial services, digital asset management, and even tokenization of real-world assets like real estate and art. The platform is also home to thousands of tokens, each with its unique use case and value and hosts internet communities governed by token holders, further expanding the potential of decentralized organizations.\n\n## What are Ethereum tokens?\n\nTokens are digital assets created and traded on the Ethereum platform. They represent a wide range of use cases, including stablecoins that mirror the value of traditional currencies, governance tokens representing voting power in decentralized organizations, collectible tokens (NFTs) for digital art or unique assets, and various utility tokens with specific functions within their respective ecosystems. Ethereum is home to thousands of tokens, with developers constantly building new tokens that unlock new possibilities and open new markets.\n\n## What are smart contracts?\n\nSmart contracts are self-executing computer programs that live on the Ethereum blockchain. They are triggered by transactions from users or other contracts and enable complex applications and interactions on the platform. Smart contracts form the basis of decentralized apps (dApps) and are immutable, meaning they cannot be altered once deployed. They provide transparency, security, and automation, and are used in various applications like lending platforms, decentralized exchanges, insurance, crowdfunding, and more.\n\n## Who created it?\n\nEthereum was proposed by Vitalik Buterin in 2013 and officially launched in 2015, following a successful crowdfunding campaign. It has since been developed and maintained by the Ethereum community, consisting of developers, researchers, and enthusiasts worldwide.\n\n## What was The Merge and why was it important?\n\nThe Merge was a significant upgrade to the Ethereum network, transitioning it from a proof-of-work (PoW) to a proof-of-stake (PoS) consensus mechanism. This event marked the joining of the original execution layer (Ethereum Mainnet) with its new PoS consensus layer, the Beacon Chain. The Merge played a crucial role in Ethereum's development for several reasons:\n\n* Energy Efficiency: The Merge reduced Ethereum's energy consumption by approximately 99.95%, making it a more sustainable and environmentally friendly blockchain platform.\n\n* Enhanced Security: By adopting the PoS consensus mechanism, Ethereum's security was strengthened as it became less vulnerable to potential attacks, such as the 51% attack, which is more common in PoW networks.\n\n* Scalability: The Merge laid the foundation for future upgrades aimed at increasing the scalability of the Ethereum network, allowing it to handle more transactions and support a larger user base.\n\n* Decentralization: The switch to PoS incentivized more participants to join the network as validators, further decentralizing the Ethereum ecosystem and reducing the risk of centralization that can occur in PoW mining.\n\n* Continued Evolution: The Merge represented a major milestone in Ethereum's ongoing development, showcasing the project's adaptability and commitment to growth, innovation, and improvement.",
+        "ASSET_DESCRIPTION_SUMMARY": "Ethereum is a decentralized platform for building smart contracts and decentralized applications. It has its own cryptocurrency, Ether, and enables users to transact and communicate without the need for a central authority. In contrast to Bitcoin, Ethereum is a general purpose blockchain that can be programmed for a wide range of tasks. It can be used for building apps and organizations, holding assets, and facilitating financial transactions while respecting user privacy and avoiding censorship. ETH, the native cryptocurrency of Ethereum, is used to fuel and secure the network, serve as collateral for the creation of other tokens, and support the Ethereum financial system. It has value as a means of paying transaction fees and as a store of value or tool for decentralized finance. ETH has also gained recognition through initial coin offerings.",
+        "PROJECT_LEADERS": [
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Vitalik Buterin"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Mihai Alisie"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Anthony Di Iorio"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Gavin Wood"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Joseph Lubin"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Jeffrey Wilcke"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Amir Chetrit"
+            },
+            {
+                "LEADER_TYPE": "FOUNDER",
+                "FULL_NAME": "Charles Hoskinson"
+            }
+        ],
+        "ASSOCIATED_CONTACT_DETAILS": null,
+        "SEO_TITLE": "Ethereum (ETH)",
+        "SEO_DESCRIPTION": "Live Ethereum price movements from all markets and ETH market cap, use our charts and see when there is an opportunity to buy or sell."
+    },
+    "Err": {}
+}
